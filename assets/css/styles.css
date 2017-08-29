@@ -1,0 +1,76 @@
+/*/////////////////
+ Basics
+//////////////////*/
+
+body {
+  font-family: 'Mukta Mahee', sans-serif;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 1.1em;
+}
+
+header {
+    font-size: 24px;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    border-bottom: 2px solid lightgrey;
+}
+
+.topics {
+    padding: 20px;
+}
+
+.allCars {
+  background-color: #2997A0;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.allCars:hover{
+  background-color: #9F5DE1;
+}
+
+.search {
+  text-align: center;
+  line-height: 2em;
+  float: right;
+  display: block;
+  padding: 10px;
+  margin: 50px 100px 50px 50px;
+  border: 2px solid #0b5866;
+}
+
+.photos {
+  display: inline-block;
+  padding: 30px 40px 10px 40px;
+}
